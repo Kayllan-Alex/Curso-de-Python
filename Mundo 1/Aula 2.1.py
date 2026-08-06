@@ -1,9 +1,12 @@
 primeroNumero = float(input("Digite um valor: "))
 print(type(primeroNumero))
+
 segundoNumero = str(input("Digite um valor: "))
 print(type(segundoNumero))
+
 terceiroNumero = bool(input("Digite um valor: "))
 print(type(terceiroNumero))
+
 algo = input("Digite algo: ")
 print(algo.isnumeric())
 print(algo.isalpha())

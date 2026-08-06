@@ -1,0 +1,10 @@
+primeiraNota = float(input("Digite a nota do seu primeiro bimestre: "))
+segundaNota = float(input("Do segundo: "))
+terceiraNota = float(input("Do terceiro: "))
+quartaNota = float(input("E por fim do quarto: "))
+media = (primeiraNota + segundaNota + terceiraNota + quartaNota) / 4
+print(f"Seu primeiro bimestre você fechou com {primeiraNota}")
+print(f"No segundo você ficou com {segundaNota}")
+print(f"No terceiro ficastes com {terceiraNota}")
+print(f"E no fim do ano você ficou com {quartaNota}")
+print(f"Fechando o ano com {media}")
