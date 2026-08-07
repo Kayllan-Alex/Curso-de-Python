@@ -1,0 +1,6 @@
+numero = int(input("Digite um número de 0 a 9999: "))
+print(f"Número digitado: {numero}")
+print(f"Unidade do número digitado: {numero % 10}")
+print(f"Dezena do número digitado: {numero // 10 % 10}")
+print(f"Centena do número digitado: {numero // 100 % 10}")
+print(f"Unidade de milhar do número digitado: {numero // 1000 % 10}")
