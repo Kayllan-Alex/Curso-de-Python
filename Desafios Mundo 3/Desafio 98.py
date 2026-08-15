@@ -1,10 +1,9 @@
 from time import sleep
 
 
-# Função para contagem personalizada
 def contador(inicio, fim, passo):
     print('-' * 35)
-    passo = abs(passo) if passo != 0 else 1  # Definindo o passo como valor absoluto (Deixa sinal positivo), e caso seja zero, receba 1
+    passo = abs(passo) if passo != 0 else 1  
     print(f'Contagem de {inicio} até {fim}, de {passo} em {passo}')
 
     sleep(1.5)

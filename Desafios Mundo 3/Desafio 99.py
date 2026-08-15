@@ -1,18 +1,13 @@
 from time import sleep
 
-
-# Função para impressão de barra
 def barra():
     print('-' * 50)
 
-
-# Função para verificar o maior valor entre vários informados
 def maior(*args):
     barra()
     print('Os valores estão em processo de análise...')
     sleep(1.5)
 
-    # Percorrendo tupla de valores
     maior = None
     for elemento in args:
 
@@ -24,8 +19,6 @@ def maior(*args):
     print(f'--> {len(args)} Valores informados...')
     print(f'O maior valor é --> {maior}')
 
-
-# Chamada da função passando e não passando argumentos
 maior(2, 9, 4, 5, 7, 1)
 maior(4, 7, 0)
 maior(1, 2)

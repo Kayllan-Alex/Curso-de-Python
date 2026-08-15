@@ -4,8 +4,6 @@ def escreva(mensagem):
     print(f'  {mensagem}  ')
     print('-' * (len(mensagem) + 4))
 
-
-# Cases de chamada da função
 escreva('Olá, mundo')
 escreva('Python é a melhor linguagem do mundo')
 escreva('Python é maior que Java')

@@ -4,8 +4,6 @@ def header(mensagem):
     print(f'{mensagem:^30}')
     print('-' * 30)
 
-
-# Função para calcular area do terreno
 def area(largura, comprimento):
     area = largura * comprimento
     print(f'A área de um terreno de {largura}x{comprimento} é de {area}m²')
