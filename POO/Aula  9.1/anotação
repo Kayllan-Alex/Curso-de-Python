@@ -1,0 +1,17 @@
+"""
+Métodos Mágicos para Operadores
+Equal to | p1 == p2 | p1.__eq__(p2)
+Not equal to | p1 != p2 | p1.__ne__(p2)
+Less than | p1 < p2 | p1.__lt__(p2)
+Less than or equal to | p1 <= p2 | p1.__le__(p2)
+Greater than | p1 > p2 | p1.__gt__(p2)
+Greater than or equal to | p1 >= p2 | p1.__ge__(p2)
+in-place addition | p1 += p2 | p1.__iadd__(p2)
+in-place subtraction | p1 -= p2 | p1.__isub__(p2)
+in-place multiplication | p1 *= p2 | p1.__imul__(p2)
+in-place division | p1 /= p2 | p1.__itruediv__(p2)
+in-place floor division | p1 //= p2 | p1.__ifloordiv__(p2)
+in-place modulo | p1 %= p2 | p1.__imod__(p2)
+in-place exponentiation | p1 **= p2 | p1.__ipow__(p2)
+in-place matrix multiplication | p1 @= p2 | p1.__imatmul__(p2)
+"""
